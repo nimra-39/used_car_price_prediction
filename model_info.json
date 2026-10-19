@@ -1,0 +1,121 @@
+{
+  "best_algorithm": "XGBoost",
+  "cv_folds": 10,
+  "n_cars": 12516,
+  "mean_rmse": 388824.44680366496,
+  "std_rmse": 118421.3002981931,
+  "mean_mae": 133170.07278172605,
+  "mean_r2": 0.8881206648582003,
+  "brands": [
+    "Maruti",
+    "Hyundai",
+    "Mahindra",
+    "Tata",
+    "Honda",
+    "Toyota",
+    "Ford",
+    "Chevrolet",
+    "Renault",
+    "Volkswagen",
+    "Mercedes-Benz",
+    "Audi",
+    "BMW",
+    "Skoda",
+    "Nissan",
+    "Datsun",
+    "Fiat",
+    "Jeep",
+    "Land Rover",
+    "Jaguar",
+    "Volvo",
+    "Kia",
+    "MG",
+    "Mitsubishi",
+    "Porsche",
+    "MINI",
+    "Isuzu",
+    "Ambassador",
+    "Lexus",
+    "Force",
+    "Daewoo",
+    "Ssangyong",
+    "Opel",
+    "Rolls-Royce",
+    "Ashok",
+    "Lamborghini",
+    "Maserati",
+    "Ferrari",
+    "Peugeot"
+  ],
+  "fuels": [
+    "CNG",
+    "Diesel",
+    "Electric/Hybrid",
+    "LPG",
+    "Petrol"
+  ],
+  "seller_types": [
+    "Dealer",
+    "Individual"
+  ],
+  "transmissions": [
+    "Automatic",
+    "Manual"
+  ],
+  "owners": [
+    "First Owner",
+    "Second Owner",
+    "Third Owner",
+    "Fourth & Above Owner",
+    "Test Drive Car"
+  ],
+  "year_min": 1983,
+  "year_max": 2022,
+  "comparison": [
+    {
+      "Algorithm": "XGBoost",
+      "Rank": 1,
+      "Mean RMSE (₹)": 388824.447,
+      "Std RMSE (₹)": 118421.3,
+      "Mean MAE (₹)": 133170.073,
+      "Mean R²": 0.888,
+      "Time (s)": 4.053
+    },
+    {
+      "Algorithm": "Extra Trees",
+      "Rank": 2,
+      "Mean RMSE (₹)": 398136.321,
+      "Std RMSE (₹)": 79693.264,
+      "Mean MAE (₹)": 139517.504,
+      "Mean R²": 0.881,
+      "Time (s)": 535.216
+    },
+    {
+      "Algorithm": "Bagging",
+      "Rank": 3,
+      "Mean RMSE (₹)": 410861.965,
+      "Std RMSE (₹)": 68621.56,
+      "Mean MAE (₹)": 141731.351,
+      "Mean R²": 0.874,
+      "Time (s)": 53.448
+    },
+    {
+      "Algorithm": "Elastic Net",
+      "Rank": 4,
+      "Mean RMSE (₹)": 786478.544,
+      "Std RMSE (₹)": 108967.895,
+      "Mean MAE (₹)": 314975.145,
+      "Mean R²": 0.55,
+      "Time (s)": 4.146
+    },
+    {
+      "Algorithm": "AdaBoost",
+      "Rank": 5,
+      "Mean RMSE (₹)": 1406454.886,
+      "Std RMSE (₹)": 240876.53,
+      "Mean MAE (₹)": 1299174.781,
+      "Mean R²": -0.546,
+      "Time (s)": 14.45
+    }
+  ]
+}
